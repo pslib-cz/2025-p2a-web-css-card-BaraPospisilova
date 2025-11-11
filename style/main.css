@@ -53,6 +53,16 @@
         color: var(--primary)
     }
 
+    .card__textPodCenou {
+        padding-left: 10px;
+    }
+
+    .card__zajimavyText {
+        color: var(--primary);
+        text-decoration-color: var(--primary);
+        text-decoration: underline;
+    }
+
     .card__li {
         padding: 0.4em;
         list-style-image: url(../images/check.svg);
@@ -76,7 +86,8 @@
         text-decoration: none;
         margin: 1em;
         color: var(--button-text);
-        display: inline-block;
+        display: inline-block; 
+        
     }
     .card__textSCenou {
         padding: 10px;
